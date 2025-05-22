@@ -126,3 +126,13 @@ h1 {
   .add-task { flex-direction: column; gap: 6px; }
   .task-item { flex-direction: column; align-items: stretch; gap: 7px;}
 }
+.avatar {
+  width: 80px;        /* 頭像寬度，可調整大小 */
+  height: 80px;       /* 頭像高度，可調整大小 */
+  border-radius: 50%; /* 做成圓形 */
+  object-fit: cover;  /* 裁切圖片填滿整個範圍，不會變形 */
+  border: 3px solid #fa5555; /* 可選：加個番茄色外框 */
+  box-shadow: 0 4px 12px rgba(250,85,85,0.1); /* 陰影，讓頭像更有層次 */
+  display: block;
+  margin: 0 auto 10px auto; /* 水平置中，底下留空隙 */
+}
